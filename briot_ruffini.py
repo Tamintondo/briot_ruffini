@@ -63,9 +63,3 @@ def briot_ruffini(polinomio, raiz):
 
   # retorna o resto.
   return resto, novo_polinomio
-
-polinomio = [-1, 6, -11, 6]
-raiz = 2
-resultado = briot_ruffini(polinomio, raiz)
-print(resultado)
-briot_ruffini(resultado[1], 1)
